@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@pages/*": ["src/pages/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
