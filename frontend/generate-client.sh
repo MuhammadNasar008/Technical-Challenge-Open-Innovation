@@ -1,1 +1,0 @@
-openapi --input http://0.0.0.0:8000/openapi.json --output ./src/client --client axios
